@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Calculator calc = Calculator.instance.get();
 
-        int a = calc.abs.apply(2);
+        int a = calc.abs.apply(-1111);
         int b = calc.devide.apply(3, 5);
         boolean c = calc.isPositive.test(8); //Predicate возврщает true или false
         int d = calc.minus.apply(4, 9);
